@@ -1,99 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-14T15:35:54 IST" name="Genpro Task - Saucedemo Automation Report" finished-at="2023-06-14T15:36:21 IST" duration-ms="26907">
+  <suite started-at="2023-06-14T16:20:02 IST" name="Default suite" finished-at="2023-06-14T16:20:18 IST" duration-ms="15456">
     <groups>
     </groups>
-    <test started-at="2023-06-14T15:35:54 IST" name="Genpro" finished-at="2023-06-14T15:36:21 IST" duration-ms="26907">
+    <test started-at="2023-06-14T16:20:02 IST" name="Default test" finished-at="2023-06-14T16:20:18 IST" duration-ms="15456">
       <class name="saucedemo.LoginPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:saucedemo.LoginPage@54bff557]" started-at="2023-06-14T15:36:01 IST" name="setup" finished-at="2023-06-14T15:36:07 IST" duration-ms="6901" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:saucedemo.LoginPage@741a8937]" started-at="2023-06-14T16:20:02 IST" name="setup" finished-at="2023-06-14T16:20:10 IST" duration-ms="7350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginPageValidUser()[pri:1, instance:saucedemo.LoginPage@54bff557]" started-at="2023-06-14T15:36:07 IST" name="loginPageValidUser" finished-at="2023-06-14T15:36:08 IST" duration-ms="560" status="PASS">
+        <test-method signature="loginPageValidUser()[pri:1, instance:saucedemo.LoginPage@741a8937]" started-at="2023-06-14T16:20:10 IST" name="loginPageValidUser" finished-at="2023-06-14T16:20:10 IST" duration-ms="639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageValidUser -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:saucedemo.LoginPage@54bff557]" started-at="2023-06-14T15:36:08 IST" name="closeBrowser" finished-at="2023-06-14T15:36:08 IST" duration-ms="276" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:saucedemo.LoginPage@741a8937]" started-at="2023-06-14T16:20:10 IST" name="closeBrowser" finished-at="2023-06-14T16:20:11 IST" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:saucedemo.LoginPage@54bff557]" started-at="2023-06-14T15:36:08 IST" name="setup" finished-at="2023-06-14T15:36:15 IST" duration-ms="6857" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:saucedemo.LoginPage@741a8937]" started-at="2023-06-14T16:20:11 IST" name="setup" finished-at="2023-06-14T16:20:17 IST" duration-ms="6586" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginPageLockedUser()[pri:2, instance:saucedemo.LoginPage@54bff557]" started-at="2023-06-14T15:36:15 IST" name="loginPageLockedUser" finished-at="2023-06-14T15:36:15 IST" duration-ms="221" status="PASS">
+        <test-method signature="loginPageLockedUser()[pri:2, instance:saucedemo.LoginPage@741a8937]" started-at="2023-06-14T16:20:17 IST" name="loginPageLockedUser" finished-at="2023-06-14T16:20:18 IST" duration-ms="340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageLockedUser -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:saucedemo.LoginPage@54bff557]" started-at="2023-06-14T15:36:15 IST" name="closeBrowser" finished-at="2023-06-14T15:36:16 IST" duration-ms="199" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:saucedemo.LoginPage@741a8937]" started-at="2023-06-14T16:20:18 IST" name="closeBrowser" finished-at="2023-06-14T16:20:18 IST" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- saucedemo.LoginPage -->
-      <class name="saucedemo.GenproTask">
-        <test-method is-config="true" signature="setup()[pri:0, instance:saucedemo.GenproTask@783a467b]" started-at="2023-06-14T15:35:54 IST" name="setup" finished-at="2023-06-14T15:36:00 IST" duration-ms="6849" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifytitle()[pri:0, instance:saucedemo.GenproTask@783a467b]" started-at="2023-06-14T15:36:16 IST" name="verifytitle" finished-at="2023-06-14T15:36:16 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifytitle -->
-        <test-method signature="loginByUser()[pri:2, instance:saucedemo.GenproTask@783a467b]" started-at="2023-06-14T15:36:16 IST" name="loginByUser" finished-at="2023-06-14T15:36:16 IST" duration-ms="266" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginByUser -->
-        <test-method signature="verifyurl()[pri:1, instance:saucedemo.GenproTask@783a467b]" started-at="2023-06-14T15:36:16 IST" name="verifyurl" finished-at="2023-06-14T15:36:16 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyurl -->
-        <test-method signature="priceFilter()[pri:3, instance:saucedemo.GenproTask@783a467b]" started-at="2023-06-14T15:36:16 IST" name="priceFilter" finished-at="2023-06-14T15:36:16 IST" duration-ms="179" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- priceFilter -->
-        <test-method signature="addingItemsToCart()[pri:4, instance:saucedemo.GenproTask@783a467b]" started-at="2023-06-14T15:36:16 IST" name="addingItemsToCart" finished-at="2023-06-14T15:36:16 IST" duration-ms="252" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addingItemsToCart -->
-        <test-method signature="viewcartList()[pri:5, instance:saucedemo.GenproTask@783a467b]" started-at="2023-06-14T15:36:16 IST" name="viewcartList" finished-at="2023-06-14T15:36:16 IST" duration-ms="49" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- viewcartList -->
-        <test-method signature="removeCartItems()[pri:6, instance:saucedemo.GenproTask@783a467b]" started-at="2023-06-14T15:36:16 IST" name="removeCartItems" finished-at="2023-06-14T15:36:16 IST" duration-ms="153" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- removeCartItems -->
-        <test-method signature="checkout()[pri:7, instance:saucedemo.GenproTask@783a467b]" started-at="2023-06-14T15:36:16 IST" name="checkout" finished-at="2023-06-14T15:36:17 IST" duration-ms="58" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkout -->
-        <test-method signature="customerInfo_EmptyDataValidation()[pri:8, instance:saucedemo.GenproTask@783a467b]" started-at="2023-06-14T15:36:17 IST" name="customerInfo_EmptyDataValidation" finished-at="2023-06-14T15:36:17 IST" duration-ms="177" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- customerInfo_EmptyDataValidation -->
-        <test-method signature="customerInfo_validData()[pri:9, instance:saucedemo.GenproTask@783a467b]" started-at="2023-06-14T15:36:17 IST" name="customerInfo_validData" finished-at="2023-06-14T15:36:17 IST" duration-ms="209" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- customerInfo_validData -->
-        <test-method signature="checkoutCompletedValidation()[pri:10, instance:saucedemo.GenproTask@783a467b]" started-at="2023-06-14T15:36:17 IST" name="checkoutCompletedValidation" finished-at="2023-06-14T15:36:17 IST" duration-ms="63" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkoutCompletedValidation -->
-        <test-method signature="backToHomePage()[pri:11, instance:saucedemo.GenproTask@783a467b]" started-at="2023-06-14T15:36:17 IST" name="backToHomePage" finished-at="2023-06-14T15:36:20 IST" duration-ms="3071" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="logout()[pri:12, instance:saucedemo.GenproTask@783a467b]" started-at="2023-06-14T15:36:20 IST" name="logout" finished-at="2023-06-14T15:36:20 IST" duration-ms="183" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:saucedemo.GenproTask@783a467b]" started-at="2023-06-14T15:36:20 IST" name="closeBrowser" finished-at="2023-06-14T15:36:21 IST" duration-ms="326" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- saucedemo.GenproTask -->
-    </test> <!-- Genpro -->
-  </suite> <!-- Genpro Task - Saucedemo Automation Report -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

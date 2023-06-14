@@ -44,7 +44,9 @@ FileInputStream fis =null;
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.navigate().to("https://www.saucedemo.com/");
-		fis = new FileInputStream("C://Users//Vijayalakshmi S T//Genpro14jun//Genpro//Saucedemo//src//test//resources//LoginCredentials.xlsx");		
+		String currentWorkingDir = System.getProperty("user.dir");
+		System.out.println(currentWorkingDir);
+		fis = new FileInputStream(currentWorkingDir + "//src//test//resources//LoginCredentials.xlsx");		
 	}	
 	
 	@Test(priority = 1)
